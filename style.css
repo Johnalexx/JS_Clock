@@ -1,0 +1,66 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+#head{
+    font-size: 100px;
+    font-style: oblique;
+    font-family: "Lucida Console", Courier, monospace;
+    color: white;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    border-radius: 12px;
+    background: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+#head:hover{
+    color: red;
+}
+#info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;   
+}
+#display{
+    background-color: azure;
+    color: red;
+    border-style: inset;
+    border-color: teal;
+    border-width: 23px;
+    border-radius: 10px;
+    font-style: initial;
+    font-size: 20px;
+}
+#display:hover{
+    background-color: black;
+    color:white;
+    border-color: white;
+}
+#btn{ 
+    background: radial-gradient(circle, green, yellow, green);
+    color:purple;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 17px;
+    border-width: thick;
+    border-color: black;
+    border-radius: 9px;
+    height: 40px;
+}
+#btn:hover{
+    background: radial-gradient(circle, yellow, green, yellow);
+    cursor: pointer;
+    border-color: red;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
