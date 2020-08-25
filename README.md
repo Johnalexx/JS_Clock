@@ -1,3 +1,3 @@
->> Johnalex JAVASCRIPT CLOCK
+## Johnalex JAVASCRIPT CLOCK
 
 > run index.html
